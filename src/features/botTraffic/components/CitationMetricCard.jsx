@@ -10,22 +10,22 @@ const toneClasses = {
 export default function CitationMetricCard({ metric, compact = false }) {
   return (
     <article
-      className={`flex min-h-[72px] items-center justify-between rounded-[9px] px-[14px] ${
+      className={`flex items-start gap-[16px] rounded-[9px] px-[14px] py-[20px] ${
         toneClasses[metric.tone] ?? toneClasses.slate
       }`}
     >
-      <div className="flex min-w-0 items-center gap-[14px]">
-        <span className="flex h-[27px] w-[27px] shrink-0 items-center justify-center rounded-[5px] bg-white/52 text-[#667185]">
-          <Icon name={metric.icon} className="h-[15px] w-[15px]" />
-        </span>
-        <div>
-          <p className={`${compact ? 'text-[26px]' : 'text-[32px]'} leading-none font-medium tracking-[-0.03em] text-[#222733]`}>
-            {metric.value}
-          </p>
-          <p className="mt-[13px] text-[11px] leading-none text-[#667185]">{metric.label}</p>
-        </div>
+      <span className="flex h-[24px] w-[24px] shrink-0 items-center justify-center rounded-[5px] bg-white/52 text-[#667185]">
+        <Icon name={metric.icon} className="h-[13px] w-[13px]" />
+      </span>
+
+      <div className="min-w-0 flex-1">
+        <p className={`${compact ? 'text-[32px]' : 'text-[40px]'} leading-none font-medium tracking-[-0.03em] text-[#222733]`}>
+          {metric.value}
+        </p>
+        <p className="mt-[12px] text-[13px] leading-none text-[#667185]">{metric.label}</p>
       </div>
-      <span className="flex h-[23px] w-[23px] shrink-0 items-center justify-center rounded-full bg-[#17191F] text-white">
+
+      <span className="flex h-[22px] w-[22px] shrink-0 items-center justify-center rounded-full bg-[#17191F] text-white">
         <Icon name="info" className="h-[10px] w-[10px]" strokeWidth={1.7} />
       </span>
     </article>

@@ -166,6 +166,19 @@ const iconPaths = {
   ),
   menu: <path d="M5 7h14M5 12h14M5 17h14" />,
   chevronDown: <path d="m7 10 5 5 5-5" />,
+  search: (
+    <>
+      <circle cx="11" cy="11" r="7" />
+      <path d="m21 21-4.35-4.35" />
+    </>
+  ),
+  download: (
+    <>
+      <path d="M12 3v13M7 11l5 5 5-5" />
+      <path d="M5 21h14" />
+    </>
+  ),
+  dotsVertical: <path d="M12 5h.01M12 12h.01M12 19h.01" />,
 }
 
 export default function Icon({ name, className = '', strokeWidth = 1.8 }) {

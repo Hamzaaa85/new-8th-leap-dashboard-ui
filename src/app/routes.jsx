@@ -3,6 +3,7 @@ import DashboardLayout from '../layouts/DashboardLayout'
 import LoginPage from '../features/auth/pages/LoginPage'
 import BotTrafficPage from '../features/botTraffic/pages/BotTrafficPage'
 import DashboardPage from '../features/dashboard/pages/DashboardPage'
+import PagesPage from '../features/pages/pages/PagesPage'
 
 function PlaceholderPage({ title }) {
   return (
@@ -23,7 +24,7 @@ export default function AppRoutes() {
       <Route element={<DashboardLayout />}>
         <Route path="/dashboard" element={<DashboardPage />} />
         <Route path="/bot-traffic" element={<BotTrafficPage />} />
-        <Route path="/pages" element={<PlaceholderPage title="Pages" />} />
+        <Route path="/pages" element={<PagesPage />} />
         <Route path="/pages/new" element={<PlaceholderPage title="Add Page" />} />
         <Route path="/prompts" element={<PlaceholderPage title="Prompts" />} />
         <Route path="/reports" element={<PlaceholderPage title="Reports" />} />

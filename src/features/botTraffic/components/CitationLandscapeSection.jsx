@@ -5,7 +5,7 @@ export default function CitationLandscapeSection({ landscape }) {
   return (
     <Card className="px-[14px] pt-[20px] pb-[22px]">
       <div>
-        <h1 className="text-[14px] leading-none font-medium tracking-[-0.01em] text-[#1D2634]">
+        <h1 className="text-[15px] leading-none font-medium tracking-[-0.01em] text-[#1D2634]">
           {landscape.title}
         </h1>
         <p className="mt-[12px] text-[10px] leading-none text-[#667185]">{landscape.description}</p>
