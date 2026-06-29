@@ -45,7 +45,7 @@ function LoginForm() {
                 name={field.id}
                 type={field.type}
                 autoComplete={field.autoComplete}
-                className="mt-[23px] block h-[1px] w-full border-0 border-b border-[#D8DCE2] bg-transparent px-0 py-0 text-[22px] text-[#1D2634] outline-none transition-colors focus:border-[#1D2634]"
+                className="mt-[8px] block h-[38px] w-full border-0 border-b border-[#D8DCE2] bg-transparent px-0 pb-[10px] text-[22px] text-[#1D2634] outline-none transition-colors focus:border-[#1D2634]"
               />
             </label>
           ))}

@@ -179,6 +179,18 @@ const iconPaths = {
     </>
   ),
   dotsVertical: <path d="M12 5h.01M12 12h.01M12 19h.01" />,
+  eye: (
+    <>
+      <path d="M2 12s4-8 10-8 10 8 10 8-4 8-10 8-10-8-10-8z" />
+      <circle cx="12" cy="12" r="3" />
+    </>
+  ),
+  share: (
+    <>
+      <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71" />
+      <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71" />
+    </>
+  ),
 }
 
 export default function Icon({ name, className = '', strokeWidth = 1.8 }) {

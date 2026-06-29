@@ -4,6 +4,7 @@ import LoginPage from '../features/auth/pages/LoginPage'
 import BotTrafficPage from '../features/botTraffic/pages/BotTrafficPage'
 import DashboardPage from '../features/dashboard/pages/DashboardPage'
 import PagesPage from '../features/pages/pages/PagesPage'
+import ReportsPage from '../features/reports/pages/ReportsPage'
 
 function PlaceholderPage({ title }) {
   return (
@@ -27,7 +28,7 @@ export default function AppRoutes() {
         <Route path="/pages" element={<PagesPage />} />
         <Route path="/pages/new" element={<PlaceholderPage title="Add Page" />} />
         <Route path="/prompts" element={<PlaceholderPage title="Prompts" />} />
-        <Route path="/reports" element={<PlaceholderPage title="Reports" />} />
+        <Route path="/reports" element={<ReportsPage />} />
         <Route path="/notifications" element={<PlaceholderPage title="Notifications" />} />
         <Route path="/messages" element={<PlaceholderPage title="Messages" />} />
         <Route path="/settings" element={<PlaceholderPage title="Settings" />} />
