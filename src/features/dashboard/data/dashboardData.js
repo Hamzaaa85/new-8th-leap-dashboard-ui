@@ -1,0 +1,107 @@
+export const dashboardData = {
+  hero: {
+    eyebrow: 'SPLIT IQ - Dashboard',
+    title: 'Optimize Your Website with AI Intelligence',
+    description:
+      'Transform your web presence with automated monitoring, intelligent optimization, and real-time performance insights.',
+    cta: 'Review Latest Report',
+  },
+  usage: {
+    label: 'Usage',
+    current: 20,
+    total: 100,
+    description: 'Daily VA pages',
+  },
+  insight: {
+    label: 'INSIGHT',
+    status: 'Low',
+    title: 'AI Visibility Index',
+    score: 35,
+    total: 100,
+    baseline: 32,
+    description:
+      'AI answer sets are dynamic. Rankings and inclusions can shift session to session based on user context and model refreshes. Over time, SplitIQ aims to increase consistency by improving crawlability, structure, and reliability signals.',
+  },
+  scorecard: {
+    label: 'Performance Scorecard Live',
+    title: 'Important Note',
+    description:
+      'AI answer sets are dynamic. Rankings and inclusions can shift session to session based on user context and model refreshes. Over time, SplitIQ aims to increase consistency by improving crawlability, structure, and reliability signals.',
+    metrics: [
+      {
+        label: 'Extractability',
+        helper: 'AI content structure scan',
+        value: 55,
+        total: 100,
+        icon: 'arrowUp',
+        tone: 'green',
+      },
+      {
+        label: 'Summarizability',
+        helper: 'LLM summary quality check',
+        value: 30,
+        total: 100,
+        icon: 'menu',
+        tone: 'amber',
+      },
+      {
+        label: 'Clarity',
+        helper: 'Content readability review',
+        value: 85,
+        total: 100,
+        icon: 'spark',
+        tone: 'mint',
+      },
+      {
+        label: 'Consistency',
+        helper: 'Cross-page alignment check',
+        value: 15,
+        total: 100,
+        icon: 'refresh',
+        tone: 'red',
+      },
+    ],
+  },
+  accountManager: {
+    name: 'Kari Johnson',
+    role: 'Account Manager',
+    avatar: '/dashboard_avatar.png',
+    bio: 'I love marketing and dogs, but mostly dogs.',
+    email: 'kari@northwinddigital.com',
+    phone: '612.449.0011',
+    primaryAction: 'Send me a request',
+    secondaryAction: 'Schedule a zoom meeting',
+  },
+  railMetrics: [
+    {
+      label: 'Bot Traffic',
+      value: '700',
+      suffix: 'Visits',
+      helper: 'of last 30 days',
+      icon: 'bot',
+      info: true,
+      className: 'bg-[#FFECCB]',
+    },
+    {
+      label: 'Coverage',
+      value: '49',
+      helper: 'SplitIQ pages',
+      icon: 'bars',
+      className: 'bg-[#F8CBD5]',
+    },
+    {
+      label: 'Avg. Reach Latency',
+      value: '11.0 ms',
+      icon: 'arrowUp',
+      info: true,
+      className: 'bg-[#E9CEF4]',
+    },
+    {
+      label: 'Uptime',
+      value: '99.0%',
+      helper: '(AI crawlers)',
+      icon: 'uptime',
+      className: 'bg-[#D3E0F6]',
+    },
+  ],
+}
